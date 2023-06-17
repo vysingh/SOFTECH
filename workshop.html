@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		
+		.test-box {
+			width: 200px;
+			height: 200px;
+			color: white;
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+<!----------------------TASK 3-->
+<div class="test-box" onclick="console.log('Bạn đã Click')">
+	click me
+</div>
+
+<h2>INFO</h2>
+SV Name: <span id="svName"></span>
+<br>
+SV Age: <span id="svAge"></span>
+<br>
+SV Sex: <span id="svSex"></span>
+<br>
+SV Address: <span id="svAddress"></span>
+
+
+
+
+<script type="text/javascript">
+
+//----------------------TASK 1
+
+// let a = 1;
+// let b = 2;
+
+// let c = a*b;
+// let d = a+b;
+// let e = a-b;
+// let f = a/b;
+
+// a += 1;
+// b += 1;
+
+// console.log(c,d,e,f);
+// console.log(a,b);
+
+//----------------------TASK 2
+
+
+// let valuevd = "";
+// let vd1 = prompt("nhập giá trị đầu vào cho biến x",valuevd);
+// let vd2 = prompt("nhập giá trị đầu vào cho biến y",valuevd);
+// console.log(vd1,vd2); //debug
+// vd1 = parseInt(vd1);//chuyen doi string thanh number
+// vd2 = parseInt(vd2);
+// console.log(vd1,vd2);//debug
+// let result1 = vd1 * vd2;
+// let result2 = vd1 + vd2;
+// let result3 = vd1 - vd2;
+
+// console.log(result1,result2,result3);
+// console.log(vd1,vd2);
+
+//----------------------TASK 4
+
+let svName = "Nguyễn Văn A";
+let svAge = 20;
+const isSex = "Nam";
+let svAddress = "Hà Nội";
+
+document.querySelector("#svName").innerHTML =svName;
+document.querySelector("#svAge").innerHTML =svAge;
+document.querySelector("#svSex").innerHTML =isSex;
+document.querySelector("#svAddress").innerHTML =svAddress;
+
+console.log(svName,svAge,isSex,svAddress);
+
+
+</script>
+</body>
+</html>
